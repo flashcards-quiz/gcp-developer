@@ -4,56 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>GCP Exam Practice</title>
-  <link rel="stylesheet" href="css/style.css">
+  <script type="module" crossorigin src="/gcp-developer/assets/index-DIbqR2yu.js"></script>
+  <link rel="stylesheet" crossorigin href="/gcp-developer/assets/index-B0o6LZy1.css">
 </head>
 <body>
-
-  <section id="home" class="screen">
-    <div class="container">
-      <h1 class="home__title">GCP Exam Practice</h1>
-      <p class="home__subtitle" id="questionCount"></p>
-      <button class="btn btn--primary" id="startBtn">Inizia Quiz (10 domande)</button>
-    </div>
-  </section>
-
-  <section id="quiz" class="screen screen--hidden">
-    <div class="container">
-      <div class="quiz__header">
-        <span class="quiz__progress" id="progress"></span>
-        <span class="quiz__score" id="score"></span>
-      </div>
-
-      <div class="card">
-        <span class="card__badge" id="questionBadge"></span>
-
-        <details class="card__context" id="contextContainer">
-          <summary>Mostra contesto Case Study</summary>
-          <div id="contextText"></div>
-        </details>
-
-        <div class="card__question" id="questionText"></div>
-
-        <div class="card__answers" id="answersContainer"></div>
-      </div>
-
-      <button class="btn btn--primary btn--next screen--hidden" id="nextBtn">Prossima</button>
-    </div>
-  </section>
-
-  <section id="results" class="screen screen--hidden">
-    <div class="container">
-      <h2 class="results__title">Risultati</h2>
-      <p class="results__score" id="finalScore"></p>
-      <div class="results__bar">
-        <div class="results__bar-fill" id="scoreBar"></div>
-      </div>
-
-      <div class="results__list" id="resultsList"></div>
-
-      <button class="btn btn--primary" id="retryBtn">Riprova</button>
-    </div>
-  </section>
-
-  <script type="module" src="js/app.js"></script>
+  <div id="app"></div>
 </body>
 </html>
